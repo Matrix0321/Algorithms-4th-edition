@@ -14,7 +14,7 @@ public class Ex24 {
 			int tmp=p;
 			p=q;
 			q=tmp;
-		}//Swap to make sure that p is always greater than q
+		}//Swap to make sure that p is always no less than q
 		if (p%q==0) {
 			return q;
 		}else {
