@@ -25,6 +25,7 @@ public class Ex1_11 {
 }
 
 Output:
+
  012
 0***
 1   
