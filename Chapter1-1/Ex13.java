@@ -6,7 +6,7 @@ public class Ex1_13 {
 	public static void printTransposedMatrix(int[][]matrix) {
 		for(int i=0;i<matrix[0].length;i++) {
 			for(int j=0;j<matrix.length;j++) {
-				System.out.printf("%4d", matrix[j][i]);
+				System.out.printf("%d", matrix[j][i]);
 			}
 			System.out.println();
 		}
