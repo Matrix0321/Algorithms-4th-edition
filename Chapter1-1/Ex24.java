@@ -6,7 +6,7 @@ package algo;
 
 public class Ex24 {
 	public static int Euclid(int p,int q) {
-		System.out.println("p = " + p + ", q = " + q);
+		System.out.println("p = "+p+", q = "+ q);
 		if (p==0||q==0) {
 			return 1;
 		}
@@ -18,12 +18,12 @@ public class Ex24 {
 		if (p%q==0) {
 			return q;
 		}else {
-			System.out.println("remainder = " + p%q);
+			System.out.println("remainder = "+ p%q);
 			return Euclid(p,p%q);//Recursion
 		}
 	}
 	public static void main(String[]args) {
-		System.out.println("result: " + Euclid(1111111, 1234567));
+		System.out.println("result: "+Euclid(1111111, 1234567));
 	}
 
 }
