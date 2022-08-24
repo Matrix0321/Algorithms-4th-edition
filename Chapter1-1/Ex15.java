@@ -27,4 +27,4 @@ Output:
 
     0    2    2    2    2    1
       
-(And sum up all the items in the output, the result is exactly 9, a.length as well)
+(And sum up all the items in the output, the result is 9, so to speak a.length)
